@@ -175,6 +175,7 @@ For  type  specifications  of  operations,  please  check  out  the  table below
 | If              | Boolean(s) for test-exp | Depend on then-exp and else-exp |
 | Fun             | Any                     | Function    |
 | Function call   | Any                     | Depend on fun-body and parameters|
+
 Please print a message when detecting a type error. For example: 
 ```
 (> 1 #t) 
